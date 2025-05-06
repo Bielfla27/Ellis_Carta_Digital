@@ -31,10 +31,10 @@ h1 {
 
 
 .conteudo {
-  margin: 50 auto; /* Centraliza horizontalmente */
+  margin: 0 auto; /* Centraliza horizontalmente */
   padding: 70px 0;
   max-width: 90%;
- 
+
   border-radius: 10px;
 }
 
