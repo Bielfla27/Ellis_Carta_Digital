@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-image: url('Carta.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center;
+  color: white;
+  padding: 20px; /* Dá espaçamento nas bordas */
+}
+
+h1 {
+  font-family: "Dancing Script", cursive;
+  font-weight: 500; /* substitui <weight> por um valor válido */
+  font-style: normal;
+  color: black;
+  word-wrap: break-word;
+}
+
+
+.conteudo {
+  margin: 50 auto; /* Centraliza horizontalmente */
+  padding: 70px 0;
+  max-width: 90%;
+ 
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .conteudo {
+    padding: 15px;
+    max-width: 100%;
+  }
+}
